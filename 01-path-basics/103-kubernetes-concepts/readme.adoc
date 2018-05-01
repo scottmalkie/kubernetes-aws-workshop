@@ -1326,7 +1326,7 @@ Namespaces allows a physical cluster to be shared by multiple teams. A namespace
 . *policies* to ensure appropriate authority to trusted users
 . ability to specify *constraints for resource consumption*
 
-This allows a Kubernetes cluster to share resources by multiple groups and provide different levels of QoS each group. Resources created in one namespace are hidden from other namespaces. Multiple namespaces can be created, each potentially with different constraints.
+This allows a Kubernetes cluster to share resources by multiple groups and provide different levels of QoS for each group. Resources created in one namespace are hidden from other namespaces. Multiple namespaces can be created, each potentially with different constraints.
 
 === Default namespace
 
